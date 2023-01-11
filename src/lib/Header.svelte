@@ -1,13 +1,3 @@
-<script>
-  // let status = "Dark";
-  // let handleBtn = () => {
-  //   if (status == "Dark") [(status = "Light")];
-  //   else {
-  //     status = "Dark";
-  //   }
-  // };
-</script>
-
 <main>
   <div class="container">
     <img
@@ -15,8 +5,7 @@
       width="55"
       alt="User Logo"
     />
-    <h1>Users Profile</h1>
-    <!-- <button on:click={handleBtn}>{status}</button> -->
+    <h1>To - - - Do</h1>
   </div>
 </main>
 

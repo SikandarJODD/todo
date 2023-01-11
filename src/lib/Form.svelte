@@ -31,7 +31,7 @@
       <textarea
         name="message"
         id="message"
-        cols="10"
+        cols="50"
         rows="3"
         bind:value={user.message}
         required
@@ -46,7 +46,7 @@
 <style>
   label {
     color: rgb(196, 196, 196);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: Poppins, "sans-serif";
     margin: 4px 0;
     letter-spacing: 0.8px;
@@ -59,14 +59,15 @@
     border: 2px solid #29affc;
     font-family: Poppins, sans-serif;
     background: #3737376c;
-    color: rgb(247, 250, 250);
+    color: rgb(238, 239, 239);
   }
 
   form {
     border: 1px solid white;
     padding: 10px 15px;
-    margin: 10px;
-    border-radius: 9px;
+    margin: 5px;
+    border-radius: 10px;
+    background: #191919;
   }
   form > div {
     display: flex;

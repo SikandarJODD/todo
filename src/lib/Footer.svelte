@@ -11,7 +11,7 @@
 
 <style>
   p {
-    color: #eee;
+    color: rgb(211, 211, 211);
   }
   .bottom {
     display: flex;
@@ -19,14 +19,14 @@
     align-items: center;
     position: fixed;
     bottom: 0px;
-    padding: 10px;
+    padding: 8px;
     background: rgba(0, 7, 34, 0.99);
     width: 100vw;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   a {
-    color: rgb(110, 252, 252);
+    color: rgba(43, 255, 255, 0.971);
     text-decoration: none;
   }
 </style>

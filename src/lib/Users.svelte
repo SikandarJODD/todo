@@ -25,7 +25,7 @@
 </script>
 
 <main>
-  <div class="container">
+  <div>
     <div class="container">
       <Form on:formSubmitted={formSubmitted} />
     </div>
@@ -40,7 +40,7 @@
 <style>
   .container {
     display: flex;
-    padding: 0px 3%;
+    padding: 0px 2%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
